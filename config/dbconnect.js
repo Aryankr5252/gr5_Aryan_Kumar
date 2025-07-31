@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 dotenv.config();
+// MONGO_URL = mongodb://127.0.0.1:27017
 
 export const dbconnect = async () => {
   try {
